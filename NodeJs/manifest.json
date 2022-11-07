@@ -16,9 +16,28 @@
 			}
 		],
 		"commandline": [
-		  "const { isFileExists } = require( \"sampleHandler\" ); return { isExistsStr : isFileExists( %1 ) };"
+		  "const { isFileExists } = require( \"sampleHandler/sampleHandler\" ); return { isExistsStr : isFileExists( %1 ) };"
+		]
+	  },
+	  {
+		"name": "Get Message with Current Date & Time",
+		"type": "node",
+		"parameters": [
+			{
+				"name": "message",
+				"type": "string"
+			}
+		],
+		"response": [
+			{
+				"name": "outputMessage",
+				"type": "string"
+			}
+		],
+		"commandline": [
+		  "const { getMsgWithCurrentDateTime } = require( \"sampleHandler/sampleHandler\" ); return { outputMessage : getMsgWithCurrentDateTime( %1 ) };"
 		]
 	  }
 	],
-	"name": "File Handler"
+	"name": "Sample Handler"
   }
