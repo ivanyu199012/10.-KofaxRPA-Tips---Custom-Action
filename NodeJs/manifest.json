@@ -1,0 +1,24 @@
+{
+	"actions": [
+	  {
+		"name": "Is File Exists",
+		"type": "node",
+		"parameters": [
+			{
+				"name": "filePath",
+				"type": "string"
+			}
+		],
+		"response": [
+			{
+				"name": "isExistsStr",
+				"type": "string"
+			}
+		],
+		"commandline": [
+		  "const { isFileExists } = require( \"fileHandler\" ); return { isExistsStr : isFileExists( %1 ) };"
+		]
+	  }
+	],
+	"name": "File Handler"
+  }
