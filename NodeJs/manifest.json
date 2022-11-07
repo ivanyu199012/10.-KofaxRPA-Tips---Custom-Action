@@ -16,7 +16,7 @@
 			}
 		],
 		"commandline": [
-		  "const { isFileExists } = require( \"fileHandler\" ); return { isExistsStr : isFileExists( %1 ) };"
+		  "const { isFileExists } = require( \"sampleHandler\" ); return { isExistsStr : isFileExists( %1 ) };"
 		]
 	  }
 	],
