@@ -16,7 +16,7 @@
 					"type": "string"
 				}
 			],
-			"commandline": ["from sampleHandler import SampleHandler; rpa_return = SampleHandler.is_file_exists( %1 )= "]
+			"commandline": ["from sampleHandler import SampleHandler; rpa_return = SampleHandler.is_file_exists( %1 ) "]
 		},
 		{
 			"name": "get_my_data_set",
@@ -37,7 +37,7 @@
 					"type": "string"
 				}
 			],
-			"commandline": ["from sampleHandler import SampleHandler; rpa_return = SampleHandler.get_my_data_set( %1, %2 )= "]
+			"commandline": ["from sampleHandler import SampleHandler; rpa_return = SampleHandler.get_my_data_set( %1, %2 ) "]
 		}
 	]
 }
