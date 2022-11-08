@@ -1,5 +1,5 @@
 {
-	"name": "SampleHandler",
+	"name": "Sample Handler Python",
 	"actions": [
 		{
 			"name": "is_file_exists",
