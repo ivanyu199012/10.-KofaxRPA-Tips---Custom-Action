@@ -4,6 +4,7 @@ Example code are organized as below:
 - `Python` folder = custom action (Python) example code
 
 ## Blog post
+[💡Tip 3, Creating custom action by JavaScript and Python](https://ivanyu2021.hashnode.dev/tip-3-creating-custom-action-by-javascript-and-python)
 
 ## Custom Action (Node.js)
 
